@@ -43,11 +43,7 @@ extern "C" {
 #include "utils.h"
 
 const int kMinInteractiveDuration = 100;  /* ms */
-<<<<<<< HEAD
 const int kMaxInteractiveDuration = 5000; /* ms */
-=======
-const int kMaxInteractiveDuration = 2500; /* ms */
->>>>>>> b26e2cb... sm7125-common: power: Add custom boost extension for scroll handling
 
 static int process_interaction_hint(void* data) {
     static struct timespec s_previous_boost_timespec;
