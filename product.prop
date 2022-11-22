@@ -13,6 +13,13 @@ vendor.display.disable_rotator_ubwc=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_rotator_downscale=1
 
+# Power-saving props
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Touch improvements
 touch.pressure.scale=0.001
 persist.sys.ui.hw=1
