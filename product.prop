@@ -43,3 +43,6 @@ ro.config.low_ram=false
 
 # Incremental FS
 ro.incremental.enable=1
+
+# Shutdown
+ro.build.shutdown_timeout=2
