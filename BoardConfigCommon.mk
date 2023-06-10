@@ -130,6 +130,9 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += kpti=off
 
+# jemalloc for libc
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
