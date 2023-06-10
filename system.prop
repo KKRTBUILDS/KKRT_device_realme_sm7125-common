@@ -100,6 +100,11 @@ telephony.lteOnCdmaDevice=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
 persist.sys.fflag.override.settings_provider_model=false
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
